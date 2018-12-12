@@ -29,9 +29,17 @@ header {
 .section-banner {
 	background-color: #E6E6E6;
 }
+.section-news {
+
+}
+.section-features {
+	height: 400px;
+	background-color: #D3D3D3;
+}
 .wrapper{
 	width: 270px;
 	height: 270px;
+	padding: 0px 50px;
 }
 .bg {
 	width: 270px;
@@ -60,13 +68,8 @@ header {
 }
 .container-ul {
 	padding: 15px 0px 0px 50px;
-	color: white;
 	font-size: 24px;
 	text-decoration: bold;
-}
-.container-li {
-	font-size: 24px;
-	color: white;
 }
 .container-li::after{
 	content: "";
@@ -86,6 +89,16 @@ header {
 .bg-gray {
 	height: 450px;
 	background-color: #BDCCD4;
+}
+.font-black {
+	font-size: 24px;
+	color: black;
+}
+.font-white {
+	color: white;
+}
+.font-blue {
+	color: blue;
 }
 .div-boxes {
 	padding: 30px 100px 90px 100px;
@@ -124,4 +137,17 @@ header {
 .interface-img {
 	background-image: url(../img/interface.svg);
 	background-repeat: no-repeat;
+}
+.box-icon {
+	padding: 30px 20px 30px 50px;
+}
+.icon {
+	height: 100px;
+}
+.box p {
+	margin-left: 15px;
+}
+.container p {
+	margin-left: 10px;
+	margin-top: 10px;
 }
